@@ -2,7 +2,7 @@ var recipes = {
   1:'asdasd'
 };
 const dog = ['fid','as','apopop'];
-dog.length = 1;
+dog.length = 2;
 console.log(dog);
 //console.log(recipes[1]);
 function updateObjectWithKeyAndValue(object, key, value){
