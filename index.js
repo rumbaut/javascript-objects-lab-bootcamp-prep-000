@@ -1,4 +1,6 @@
-var recipes = {};
+var recipes = {
+  1:'asdasd'
+};
 
 function updateObjectWithKeyAndValue(object, key, value){
   var copy = Object.assign({}, object);
