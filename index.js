@@ -5,7 +5,7 @@ const oneTwoThree = [1, 2, 3]
 const sevenEightNine = [7, 8, 9]
 
 var other = [4, 5, 6, ...oneTwoThree, ...sevenEightNine];
-other.each(function(val){
+other.forEach(function(val){
   console.log(val);
 });
 //const dog = ['fid','as','apopop'];
