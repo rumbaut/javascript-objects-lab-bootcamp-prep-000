@@ -8,8 +8,8 @@ var other = [4, 5, 6, ...oneTwoThree, ...sevenEightNine];
 other.each(function(val){
   console.log(val);
 });
-const dog = ['fid','as','apopop'];
-dog.length = 2;
+//const dog = ['fid','as','apopop'];
+//dog.length = 2;
 console.log(dog);
 //console.log(recipes[1]);
 function updateObjectWithKeyAndValue(object, key, value){
