@@ -3,7 +3,7 @@ var recipes = {
 };
 const dog = ['fid','as','apopop'];
 dog.length = 1;
-console.debug(dog);
+console.log(dog);
 console.log(recipes[1]);
 function updateObjectWithKeyAndValue(object, key, value){
   var copy = Object.assign({}, object);
